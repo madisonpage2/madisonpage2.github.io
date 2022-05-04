@@ -47,11 +47,11 @@ header .navbar-light .navbar-toggler { border-color: #dddddd; border-radius: 0; 
 header.menu-sticky .button.brd { padding: 10px 30px; color: #ffffff; }
 header .navbar-expand-lg { padding: 0; }
 header .navbar-light .navbar-nav .nav-item a { color: #ffffff; position: relative; font-size: 16px; }
-header .navbar-light .navbar-nav .nav-item:hover a, header .navbar-light .navbar-nav .nav-item a.active, header .navbar-light .navbar-nav .nav-item a:focus, header .navbar-light .navbar-nav .nav-item a:focus { color: #1835a9; }
+header .navbar-light .navbar-nav .nav-item:hover a, header .navbar-light .navbar-nav .nav-item a.active, header .navbar-light .navbar-nav .nav-item a:focus, header .navbar-light .navbar-nav .nav-item a:focus { color: #060637; }
 header .navbar-light .navbar-nav .dropdown-menu { padding: 10px 20px; top: 50px; border: none; }
 header .navbar-light .navbar-nav .active>.nav-link, header .navbar-light .navbar-nav .nav-link.active, header .navbar-light .navbar-nav .nav-link.show, header .navbar-light .navbar-nav .show>.nav-link { color: #ffffff; }
 header.menu-sticky .navbar-light .navbar-nav .nav-item a { color:black; }
-header.menu-sticky .navbar-light .navbar-nav .nav-item:hover a, header.menu-sticky .navbar-light .navbar-nav .nav-item a.active { color: #1835a9; }
+header.menu-sticky .navbar-light .navbar-nav .nav-item:hover a, header.menu-sticky .navbar-light .navbar-nav .nav-item a.active { color: #060637; }
 header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu a { color: #222222; }
 header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu a:hover, header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu a.active { color: #38; background: none; }
 header .dropdown-item.active, header .dropdown-item:active { background: inherit; }
@@ -73,7 +73,7 @@ color: #ffffff; }
 1 Header sticky 
 -----------------------------------------------------------------------*/
 header.menu-sticky { background: #ffffff; position: fixed; z-index: 999; box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%); color: black;}
-header.menu-sticky .navbar-light .navbar-nav li.active .nav-link, header.menu-sticky .navbar-light .navbar-nav li .nav-link:hover { color: #1835a9; }
+header.menu-sticky .navbar-light .navbar-nav li.active .nav-link, header.menu-sticky .navbar-light .navbar-nav li .nav-link:hover { color: #060637; }
 header.menu-sticky .navbar-light .navbar-nav .nav-link, header.menu-sticky .navbar-light .navbar-nav .nav-link:focus { color: #ffffff; }
 header.menu-sticky .main-header { padding: 10px 90px 10px 90px; }
 header.menu-sticky .sub-header { display: none; }
@@ -129,7 +129,7 @@ dropdown-item
 .banner ul.banner-list li::after { background: #ffffff; border-radius: 90px; opacity: 0.4; position: absolute; left: 0; top: 10px; width: 18px; height: 18px; content: ""; }
 .banner a.link { color: #ffffff; line-height: 35px; font-size: 14px; font-weight: 600; text-transform: uppercase; }
 .banner a.link i { height: 35px; width: 35px; background: #ffffff; color: #fcc056; line-height: 35px; text-align: center; margin-right: 15px; }
-.banner a.link:hover i { background: #1835a9; }
+.banner a.link:hover i { background: #060637; }
 .banner-type img { -webkit-animation: bounce 5s infinite alternate; }
 @keyframes bounce {
 	from { transform: translateY(0px); }
@@ -209,7 +209,8 @@ ul.client-list { padding: 0; }
 .iq-tabs { margin-bottom: 80px; }
 .iq-tabs li { width: 50%; text-align: center; background: none; }
 .iq-tabs li a.nav-link { font-size: 18px; color: #000000; padding: 0 0 20px 0; border-bottom: 1px solid #f2f2f2; font-weight: 900; border-radius: 0; }
-.iq-tabs li a span { color: #1835a9; height: 35px; width: 35px; text-align: center; line-height: 35px; display: inline-block; background: #ffffff; border-radius: 90px; box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.1); margin-right: 15px; }
+.iq-tabs li a span { color: #060637
+; height: 35px; width: 35px; text-align: center; line-height: 35px; display: inline-block; background: #ffffff; border-radius: 90px; box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.1); margin-right: 15px; }
 .iq-tabs li a.nav-link.active { background: none; color: #000000; border-color: #386641; }
 .iq-tabs li a.nav-link.active span { background: #386641; color: #ffffff; }
 .tab-pane img { width: 100%; }
@@ -266,14 +267,14 @@ ul.client-list { padding: 0; }
 .swiper-slide.slide10 { background: url("../images/event/10.png"); }
 .swiper-slide:hover { background-position: right center; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; -ms-transition: all 1s ease; transition: all 1s ease; }
 .swiper-container-horizontal>.swiper-scrollbar { position: relative; background: #ffffff; opacity: 1 !important; left: 0; }
-.swiper-scrollbar-drag { background: #1835a9; }
+.swiper-scrollbar-drag { background: #060637; }
 .iq-event-info { position: relative; z-index: 2; }
 .iq-event-info .date, .blogdetailbox .iq-blog-entry .blog-swiper-container1 .iq-event-info .date { line-height: 28px; color: #ffffff; font-size: 16px; width: auto; height: auto; }
 .iq-event-info .date span { background: #ffffff; padding: 5px 15px; font-size: 14px; color: #000000; font-weight: 600; }
 .blog-swiper-container1 { position: relative; float: left; width: 100%; height: auto; opacity: 1 !important; margin-top: 50px; overflow: hidden; }
 .blog-swiper-container1.swiper-container-horizontal>.swiper-scrollbar { background: #eeeeee; width: 100%; margin-top: 30px; margin-bottom: 30px; z-index: 1; }
 .blog-swiper-container1 .swiper-wrapper { height: 350px; }
-.blog-swiper-container1 .swiper-scrollbar-drag { height: 5px; top: -38px; z-index: 1; background: #1835a9 }
+.blog-swiper-container1 .swiper-scrollbar-drag { height: 5px; top: -38px; z-index: 1; background: #060637 }
 
 /*---------------------------------------------------------------------
 10 Solution
@@ -286,7 +287,7 @@ ul.client-list { padding: 0; }
 11 Technology
 -----------------------------------------------------------------------*/
 .iq-technology .container { border: 1px solid #f2f2f2; }
-.iq-technology-details { padding: 60px 40px; margin-top: -60px; position: relative; background: #1835a9; border: 1px solid #1835a9; margin-bottom: 150px; }
+.iq-technology-details { padding: 60px 40px; margin-top: -60px; position: relative; background: #060637; border: 1px solid #060637; margin-bottom: 150px; }
 .iq-technology-details::before { background: url("../images/bg/01.png"); content: ""; height: 100%; width: 100%; position: absolute; left: 0; top: -2px; }
 .listing { padding-left: 0px; }
 .listing li { line-height: 40px; font-weight: 600; font-size: 18px; margin-bottom: 15px; list-style: none; }
@@ -471,7 +472,7 @@ footer{padding-top: 80px;}
 -----------------------------------------------------------------------*/
 .blogdetailbox { float: left; width: 100%; padding: 30px; margin-top: -60px; background: #ffffff; border: 1px solid #f2f2f2; }
 .blogdetailbox .iq-blogbox { margin: 0; }
-.blogdetailbox .iq-blogbox .iq-blog-entry .iq-entry-tag span { padding: 10px 10px; color: #ffffff; margin-right: 8px; font-weight: 600; text-transform: capitalize; background: #1835a9 }
+.blogdetailbox .iq-blogbox .iq-blog-entry .iq-entry-tag span { padding: 10px 10px; color: #ffffff; margin-right: 8px; font-weight: 600; text-transform: capitalize; background: #060637 }
 .blogdetailbox .iq-blogbox .iq-entry-title h5 { margin: 0; font-size: 30px; line-height: 40px; font-weight: 700; }
 .blogdetailbox .iq-blogbox .iq-entry-title { margin-top: 30px; float: left; width: 100%; }
 .blogdetailbox .iq-blogbox .iq-blog-entry .iq-entry-image { overflow: hidden; }
