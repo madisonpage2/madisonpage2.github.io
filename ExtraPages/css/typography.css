@@ -51,7 +51,7 @@ General
 body { font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 2em; color: #666666; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #fcc056; text-decoration: none !important; }
-a, button { outline: medium none !important; color: #fcc056; }
+a, button { outline: medium none !important; color: #386641; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; color: #000000; margin: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 label { font-weight: normal; }
