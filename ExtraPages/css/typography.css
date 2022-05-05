@@ -29,6 +29,7 @@ Design and Developed by: iqonicthemes.in
 Google Font
 -----------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /*---------------------------------------------------------------------
 Import Css
@@ -52,7 +53,7 @@ body { font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: no
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #fcc056; text-decoration: none !important; }
 a, button { outline: medium none !important; color: #386641; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; color: #000000; margin: 0px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; font-style: normal; font-weight: 600; color: #060637; margin: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 label { font-weight: normal; }
 h1 { font-size: 60px; line-height: 1.3em; }
