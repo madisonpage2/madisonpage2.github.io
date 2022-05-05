@@ -574,8 +574,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title-health-box wow fadeInUp text-center" data-wow-duration="0.9s">
-                        <p class="sub-title">The process</p>
-                        <h2 class="title font-weight-bold">How Lynx is used</h2>
+                        <p class="sub-title">The technology</p>
+                        <h2 class="title font-weight-bold">How the data is processed</h2>
                     </div>
                 </div>
             </div>
@@ -586,8 +586,8 @@
                             <div class="iq-img"><img src="images/menu/Visualdata.png" alt="fancy">
                             </div>
                         </div>
-                        <h5 class="mt-5 mb-3">Visual data collection</h5>
-                        <p class="mb-0">To receive a predicted diagnosis for a patient, veterinarians first use Lynx’s Screening Camera on Lynx’s mobile app to take an image of the dog’s lesion. </p>
+                        <h5 class="mt-5 mb-3">Image recognition</h5>
+                        <p class="mb-0">First, the image taken from the Screening Camera undergoes feature extraction, which finds patterns in the viual data. Then, the data from the feature extraction goes through a flatten layer, which helps to make the data more easily processible by the AI model.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -596,8 +596,8 @@
                             <div class="iq-img"><img src="images/menu/Nonvisualdata.png" alt="fancy">
                             </div>
                         </div>
-                        <h5 class="mt-5 mb-3">Nonvisual data collection</h5>
-                        <p class="mb-0">To increase the accuracy of the predicted diagnosis, veterinarians will enter information about the patient that could influence their diagnosis.</p>
+                        <h5 class="mt-5 mb-3">Standardization</h5>
+                        <p class="mb-0">The nonvisual data from the desktop app is also put into a format more easily processed by the AI algorithm by going through neural network standardization. The data resulting from this process is added to the visual data through a concatenate layer.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -606,8 +606,8 @@
                             <div class="iq-img"><img src="images/menu/Diagnosticresults.png" alt="fancy">
                             </div>
                         </div>
-                        <h5 class="mt-5 mb-3">Receiving a predicted diagnosis</h5>
-                        <p class="mb-0">In a matter of minutes, a predicted diagnosis is available to veterinarians on the desktop app, and treatment plans can be discussed the day of the appointment.</p>
+                        <h5 class="mt-5 mb-3">Neural Networks</h5>
+                        <p class="mb-0">The visual and nonvisual data is then put through an AI model trained by supervised learning, a form of machine learning (ML) where the AI learns based on a set of data pre-classified by humans. The algorithm uses convolutional neural networks (CNNs) to provide a diagnosis for the lesion.</p>
                     </div>
                 </div>
             </div>
