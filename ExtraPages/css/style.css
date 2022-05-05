@@ -34,7 +34,7 @@ Design and Developed by: iqonicthemes.in
 -----------------------------------------------------------------------*/
 #fullpage { overflow: hidden; }
 header.home { position: fixed; top: 0px; left: 0; }
-header { background: #386641; padding: 15px 0; z-index: 999; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; position: relative; width: 100%; }
+header { background: #ffffff; padding: 15px 0; z-index: 999; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; position: relative; width: 100%; }
 header .logo { width: 150px; display: block; }
 header .logo-stiky { width: 100px; display: none; }
 header .container-fluid { padding: 0 100px; }
