@@ -398,7 +398,7 @@ footer{padding-top: 80px;}
 /*---------------------------------------------------------------------
 15 Breadcrumb 
 ---------------------------------------------------------------------*/
-.iq-breadcrumb { padding: 80px 0 150px 0; background: #ffffff; }
+.iq-breadcrumb { padding: 80px 0 150px 0; background: #386641; }
 .iq-breadcrumb nav { display: inline-block; }
 .iq-breadcrumb .breadcrumb { z-index: 86; text-align: left; position: relative; color: #666666; margin-bottom: 0; display: inline-block; width: 100%; background: none; padding: 10px 30px; }
 .iq-breadcrumb .breadcrumb li { display: inline-block; }
