@@ -73,7 +73,7 @@ footer.manufacturing input[type=submit]:hover {
 }
 @media(max-width:992px) {
     body header .navbar ul li.current-menu-item a, body header .navbar ul li a:hover,header .navbar-light .navbar-toggler{
-        background: #e3d3cb;
+        background: #9CBFAA;
 
     }
 
